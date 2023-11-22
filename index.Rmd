@@ -4,6 +4,10 @@ site: bookdown::bookdown_site
 header-includes:
   - \usepackage{tabu}
 output: 
+  bookdown::pdf_book:
+    latex_engine: xelatex
+    fig_height: 4 
+    toc: yes
   bookdown::gitbook:
     split_by: 'section'
     pandoc_args: [ "--csl", "Vancouver.csl" ]
