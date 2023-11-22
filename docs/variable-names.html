@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>1.3 Variable Names | Using the Excel DataDictionary Template</title>
+  <meta name="description" content="1.3 Variable Names | Using the Excel DataDictionary Template" />
+  <meta name="generator" content="bookdown 0.36 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="1.3 Variable Names | Using the Excel DataDictionary Template" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="1.3 Variable Names | Using the Excel DataDictionary Template" />
+  
+  
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="data-dictionary.html"/>
+<link rel="next" href="types-of-data.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li> &nbsp;&nbsp; PMH Biostatistics</li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>1.1</b> Getting Started</a></li>
+<li class="chapter" data-level="1.2" data-path="data-dictionary.html"><a href="data-dictionary.html"><i class="fa fa-check"></i><b>1.2</b> Data Dictionary</a></li>
+<li class="chapter" data-level="1.3" data-path="variable-names.html"><a href="variable-names.html"><i class="fa fa-check"></i><b>1.3</b> Variable Names</a></li>
+<li class="chapter" data-level="1.4" data-path="types-of-data.html"><a href="types-of-data.html"><i class="fa fa-check"></i><b>1.4</b> Types of Data</a>
+<ul>
+<li class="chapter" data-level="1.4.1" data-path="types-of-data.html"><a href="types-of-data.html#identifiers"><i class="fa fa-check"></i><b>1.4.1</b> Identifiers</a></li>
+<li class="chapter" data-level="1.4.2" data-path="types-of-data.html"><a href="types-of-data.html#numeric-data"><i class="fa fa-check"></i><b>1.4.2</b> Numeric Data</a></li>
+<li class="chapter" data-level="1.4.3" data-path="types-of-data.html"><a href="types-of-data.html#categorical-data"><i class="fa fa-check"></i><b>1.4.3</b> Categorical Data</a></li>
+<li class="chapter" data-level="1.4.4" data-path="types-of-data.html"><a href="types-of-data.html#dates"><i class="fa fa-check"></i><b>1.4.4</b> Dates</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="variable-ranges.html"><a href="variable-ranges.html"><i class="fa fa-check"></i><b>1.5</b> Variable Ranges</a></li>
+<li class="chapter" data-level="1.6" data-path="calculations.html"><a href="calculations.html"><i class="fa fa-check"></i><b>1.6</b> Calculations</a>
+<ul>
+<li class="chapter" data-level="1.6.1" data-path="calculations.html"><a href="calculations.html#recoded-variables"><i class="fa fa-check"></i><b>1.6.1</b> Recoded Variables</a></li>
+<li class="chapter" data-level="1.6.2" data-path="calculations.html"><a href="calculations.html#categorised-variables"><i class="fa fa-check"></i><b>1.6.2</b> Categorised Variables</a></li>
+</ul></li>
+<li class="chapter" data-level="1.7" data-path="entering-data.html"><a href="entering-data.html"><i class="fa fa-check"></i><b>1.7</b> Entering Data</a></li>
+<li class="chapter" data-level="1.8" data-path="longitudinal-data.html"><a href="longitudinal-data.html"><i class="fa fa-check"></i><b>1.8</b> Longitudinal Data</a>
+<ul>
+<li class="chapter" data-level="1.8.1" data-path="longitudinal-data.html"><a href="longitudinal-data.html#long-format"><i class="fa fa-check"></i><b>1.8.1</b> Long Format</a></li>
+<li class="chapter" data-level="1.8.2" data-path="longitudinal-data.html"><a href="longitudinal-data.html#wide-format"><i class="fa fa-check"></i><b>1.8.2</b> Wide Format</a></li>
+</ul></li>
+<li class="chapter" data-level="1.9" data-path="multiple-data-sheets.html"><a href="multiple-data-sheets.html"><i class="fa fa-check"></i><b>1.9</b> Multiple Data Sheets</a></li>
+<li class="chapter" data-level="1.10" data-path="revising-data.html"><a href="revising-data.html"><i class="fa fa-check"></i><b>1.10</b> Revising Data</a>
+<ul>
+<li class="chapter" data-level="1.10.1" data-path="revising-data.html"><a href="revising-data.html#revising-ranges"><i class="fa fa-check"></i><b>1.10.1</b> Revising Ranges</a></li>
+<li class="chapter" data-level="1.10.2" data-path="revising-data.html"><a href="revising-data.html#revising-data-1"><i class="fa fa-check"></i><b>1.10.2</b> Revising Data</a></li>
+<li class="chapter" data-level="1.10.3" data-path="revising-data.html"><a href="revising-data.html#adding-a-new-column"><i class="fa fa-check"></i><b>1.10.3</b> Adding a New Column</a></li>
+</ul></li>
+<li class="chapter" data-level="1.11" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html"><i class="fa fa-check"></i><b>1.11</b> Frequently Asked Questions</a></li>
+</ul></li>
+<li class="divider"></li>
+<li> <a href="mailto:lisa.avery@uhn.ca">Lisa Avery</a>   </li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Using the Excel DataDictionary Template</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="variable-names" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> Variable Names<a href="variable-names.html#variable-names" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Must begin with a letter</li>
+<li>Must be unique</li>
+<li>Can not contain special characters or spaces, except for an underscore ’_’</li>
+<li>Should be short and meaningful, descriptions can be put in the Description column</li>
+<li>Long survey questions should be placed in the description. For the variable name use either a shortened version, or simply Q1, Q2, etc.</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th align="center">Bad Variable Names</th>
+<th align="center">Good Variable Names</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">patient date in clinic</td>
+<td align="center">clinic_date</td>
+</tr>
+<tr class="even">
+<td align="center">pre-treatment ECOG</td>
+<td align="center">ECOG_pre</td>
+</tr>
+<tr class="odd">
+<td align="center">Q1. What is your relationship to…</td>
+<td align="center">Q1_relationship</td>
+</tr>
+</tbody>
+</table>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="data-dictionary.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="types-of-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": false
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": null,
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "none",
+"toc_depth": 3,
+"scroll_highlight": true
+},
+"info": false
+});
+});
+</script>
+
+</body>
+
+</html>

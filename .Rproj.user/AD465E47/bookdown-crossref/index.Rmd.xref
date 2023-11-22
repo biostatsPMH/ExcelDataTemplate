@@ -1,0 +1,24 @@
+h1:overview Overview
+h2:getting-started Getting Started
+h2:data-dictionary Data Dictionary
+h2:variable-names Variable Names
+h2:types-of-data Types of Data
+h3:identifiers Identifiers
+h3:numeric-data Numeric Data
+h3:categorical-data Categorical Data
+h3:dates Dates
+h2:variable-ranges Variable Ranges
+h2:calculations Calculations
+h3:recoded-variables Recoded Variables
+h3:categorised-variables Categorised Variables
+h2:entering-data Entering Data
+h2:longitudinal-data Longitudinal Data
+h3:long-format Long Format
+h3:wide-format Wide Format
+h2:multiple-data-sheets Multiple Data Sheets
+h2:revising-data Revising Data
+h3:revising-ranges Revising Ranges
+h3:revising-data-1 Revising Data
+h3:adding-a-new-column Adding a New Column
+h2:frequently-asked-questions Frequently Asked Questions
+
